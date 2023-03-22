@@ -1,0 +1,55 @@
+.section__advice{
+  width: 100%;
+    background: #001414;
+}
+.section__advice .advice__content{
+  display: flex;
+  width: 100%;
+ 
+}
+.section__advice .advice__content .advice-aside-left, .section__advice .advice__content .advice-aside-right{
+  
+  width: 21%;
+
+}
+.section__advice .advice__content .advice-aside-left{
+  background-image: url("../../../assets/img/main/aside/lines-left.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section__advice .advice__content .advice-aside-right{
+  background-image: url("../../../assets/img/main/aside/lines-right.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section__advice .advice__content .advice__data{
+  width: 58%;
+  color: #FFFFFF;
+  display: flex;
+  padding: 247px 10%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+
+  
+  
+}
+.section__advice .advice__content .advice__data h3{
+  
+  font-weight: 400;
+font-size: 22px;
+line-height: 100%;
+
+}
+.section__advice .advice__content .advice__data p{
+  
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+
+
+}
