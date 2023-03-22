@@ -1,0 +1,38 @@
+.section__newspaper{
+ width: 100%;
+ padding: 24px 5% 0;
+}
+.section__newspaper .newspaper__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2%;
+
+}
+.section__newspaper .newspaper__content ul{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+.section__newspaper .newspaper__content ul li {
+  width: 12%;
+  padding: 15px 0 ;
+  border-top: 1px solid rgba(53, 83, 98, 0.3);;
+  display: flex;
+  flex-direction: row;
+
+
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+
+color: rgba(53, 83, 98, 0.8);
+}
+.section__newspaper .newspaper__content ul li img{
+  width: 11%;
+  margin-right: 2%;
+}
