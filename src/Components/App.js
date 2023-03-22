@@ -1,4 +1,5 @@
 import './App.css';
+import './reset.css';
 
 import Main from "./Main/Main";
 import Header from "./Header/Header";
@@ -7,9 +8,9 @@ import Footer from "./Footer/Footer";
 function App() {
   return (
     <div className="wrapper">
-      <Header></Header>
-        <Main></Main>
-        <Footer></Footer>
+      <Header/>
+        <Main/>
+        <Footer/>
 
 
     </div>

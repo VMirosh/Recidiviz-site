@@ -1,0 +1,129 @@
+.header{
+    max-width: 100%;
+
+
+}
+.header .container {
+
+    padding:17px 5% 40px;
+    background-image: url("../../assets/img/header/header-background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/* Link TED*/
+.header .header__link{
+    background-color: #001F1F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:  15px 0;
+}
+.header .header__link a {
+  font-size: 14px;
+    color: rgba(255, 255, 255, 0.85);
+    transition: color 0.4s;
+}
+.header .header__link a:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+/* TOP*/
+.header .nav {
+    max-width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header .nav .nav__list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    column-gap: 4%;
+
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.header .nav .nav__list a {
+    color: #FFFFFF;
+}
+
+.header .nav .nav__login a {
+
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+/* content */
+.header .header__content{
+
+    width: 43%;
+    margin-top: 132px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 29px;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.header .header__content .content-title{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 38px;
+    letter-spacing: 1.2px;
+
+}
+.header .header__content .content-aside{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+}
+.header .header__content .btn{
+    font-weight: 400;
+    font-size: 13px;
+    padding: 17px 33px;
+    border-radius: 85px;
+    border: 1px solid #FFFFFF;
+
+}
+.header .header__content .btn:hover{
+
+    transition: color 0.1s ease-in;
+}
+
+/* bottom */
+
+.header .header__bottom{
+    margin-top: 108px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+
+.header .header__bottom .header__bottom-title{
+    margin-bottom: 15px;
+
+}
+.header .header__bottom .header__bottom-trusted{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* column-gap: 32px; */
+
+}
+.header .header__bottom .header__bottom-trusted li{
+    width: 14%;
+    padding-top: 17px;
+    border-top: 1px solid #FFFFFF;
+}
