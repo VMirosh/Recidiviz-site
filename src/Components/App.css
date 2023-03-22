@@ -8,7 +8,7 @@ body {
 
 }
 .wrapper{
-    background-color: #1E1E1E;
+    /*background-color: #1E1E1E;*/
     min-height: 100%;
     overflow: clip;
     display: flex;

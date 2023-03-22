@@ -1,0 +1,72 @@
+.section__about{
+ width: 100%;
+ padding: 120px 0 117px;
+
+}
+ .section__about .about__content{
+width: 50%;
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+ .section__about .about__content .about__title{
+  margin-bottom: 57px;
+  font-family: 'Libre Baskerville';
+font-weight: 400;
+font-size: 29px;
+line-height: 131%;
+text-align: center;
+letter-spacing: 1.2px;
+
+color: #003331;
+}
+ .section__about .about__content .about__steps{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: space-between;
+ 
+  
+}
+
+
+
+
+ .section__about .about__content .about__steps .step{
+  width: 23%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.section__about .about__content .about__steps .step div{
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  margin-bottom: 19px;
+  background: #014C48;
+  border-radius: 50%;
+
+
+}
+ .section__about .about__content .about__steps .step p{
+  text-align: center;
+
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+
+
+text-align: center;
+
+color: rgba(53, 83, 98, 0.8);
+}
