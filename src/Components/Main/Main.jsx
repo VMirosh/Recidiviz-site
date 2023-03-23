@@ -7,6 +7,7 @@ import Section_partners from "./Partners/Section_partners";
 import Section_get from "./Get/Section_get";
 import Section_press from "./Press/Section_press";
 import Section_blog from "./Blog/Section_blog";
+import Section_work from "./Work/Section_work";
 
 
 
@@ -22,6 +23,7 @@ const Main = () => {
             <Section_get/>
             <Section_press/>
             <Section_blog></Section_blog>
+            <Section_work></Section_work>
 
         </main>
      )
