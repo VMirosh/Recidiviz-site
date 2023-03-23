@@ -5,6 +5,7 @@ import Section_advice from "./Advice/Section_advice";
 import Section_newspaper from "./Newspaper/Section_newspaper";
 import Section_partners from "./Partners/Section_partners";
 import Section_get from "./Get/Section_get";
+import Section_press from "./Press/Section_press";
 
 
 
@@ -17,6 +18,7 @@ const Main = () => {
             <Section_advice/>
             <Section_partners/>
             <Section_get/>
+            <Section_press/>
 
 
 
