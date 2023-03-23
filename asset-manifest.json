@@ -1,16 +1,40 @@
 {
   "files": {
-    "main.css": "/Recidiviz-site/static/css/main.073c9b0a.css",
-    "main.js": "/Recidiviz-site/static/js/main.9649eff3.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Recidiviz-site/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/Recidiviz-site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/Recidiviz-site/static/css/main.103aa9e3.css",
+    "main.js": "/Recidiviz-site/static/js/main.b133c805.js",
+    "static/media/logo-get.svg": "/Recidiviz-site/static/media/logo-get.a39213bc5353462e45484fe7af6fbe13.svg",
+    "static/media/header-background.jpg": "/Recidiviz-site/static/media/header-background.b6ab26e51945a8a4ecf9.jpg",
+    "static/media/logo-department.svg": "/Recidiviz-site/static/media/logo-department.1bee22efb996f1eeca8414413ad1b58e.svg",
+    "static/media/lines-left.png": "/Recidiviz-site/static/media/lines-left.2f05c5e63d39b753c607.png",
+    "static/media/section-success02.png": "/Recidiviz-site/static/media/section-success02.073eb62751e5d286890c.png",
+    "static/media/section-success01.png": "/Recidiviz-site/static/media/section-success01.65d22019b9d86227ee61.png",
+    "static/media/logo-ap.svg": "/Recidiviz-site/static/media/logo-ap.0a9329b99555b24ec6ffdc51a798b268.svg",
+    "static/media/logo-freethink.svg": "/Recidiviz-site/static/media/logo-freethink.eab2c1c049d9c879728c86bcde69a079.svg",
+    "static/media/map-american.svg": "/Recidiviz-site/static/media/map-american.4cf75231e55732281149d7b1c5c62127.svg",
+    "static/media/logo-nyt.svg": "/Recidiviz-site/static/media/logo-nyt.5da428a440637eb8a53568d81167b83c.svg",
+    "static/media/logo-the-news.svg": "/Recidiviz-site/static/media/logo-the-news.abb72425980eff336d65d0dfedc18652.svg",
+    "static/media/logo-right.svg": "/Recidiviz-site/static/media/logo-right.7a7fb6ec453c9483b9700efab95ebc4b.svg",
+    "static/media/logo-corr.svg": "/Recidiviz-site/static/media/logo-corr.0484015c0abbc83ff6895ebf9d5255f8.svg",
+    "static/media/logo-ted.svg": "/Recidiviz-site/static/media/logo-ted.46de0863f5ba8413a1a9f9c23f95595e.svg",
+    "static/media/logo_ted.svg": "/Recidiviz-site/static/media/logo_ted.c845e4a8ea1e5a99416e348d7f0ef6ba.svg",
+    "static/media/logo-corr-one.svg": "/Recidiviz-site/static/media/logo-corr-one.81bbf8ce029977b2904c663f8ab9e94b.svg",
+    "static/media/logo-time.svg": "/Recidiviz-site/static/media/logo-time.c82389e007d14e5750a68e27987cfe6c.svg",
+    "static/media/lines-right.png": "/Recidiviz-site/static/media/lines-right.cdfa72f61cbada9dc76a.png",
+    "static/media/logo-ss.svg": "/Recidiviz-site/static/media/logo-ss.b53fcba2af842c04700c7ba84efa4c16.svg",
+    "static/media/partners02.svg": "/Recidiviz-site/static/media/partners02.bb18d7a11b92e22cfdb57547a3ebc04a.svg",
+    "static/media/header-logo.svg": "/Recidiviz-site/static/media/header-logo.ac76b2cc12b3b81a66db5c78a7fde7b1.svg",
+    "static/media/partners05.svg": "/Recidiviz-site/static/media/partners05.d38e4236441ad587d4bbb36a319d5aeb.svg",
+    "static/media/partners03.svg": "/Recidiviz-site/static/media/partners03.94728b5ae2d7912f3588a3d4ca139501.svg",
+    "static/media/partners04.svg": "/Recidiviz-site/static/media/partners04.525de05f3bea8c790fdf734dfeac1851.svg",
+    "static/media/partners01.svg": "/Recidiviz-site/static/media/partners01.321524d943082996c61b81d9119b6b04.svg",
+    "static/media/logo-footer.svg": "/Recidiviz-site/static/media/logo-footer.3bf20a82f943c2d0b638b4a990fa1da5.svg",
+    "static/media/partners06.svg": "/Recidiviz-site/static/media/partners06.906c8af7a094f046861993982bb7defc.svg",
     "index.html": "/Recidiviz-site/index.html",
-    "main.073c9b0a.css.map": "/Recidiviz-site/static/css/main.073c9b0a.css.map",
-    "main.9649eff3.js.map": "/Recidiviz-site/static/js/main.9649eff3.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Recidiviz-site/static/js/787.28cb0dcd.chunk.js.map"
+    "main.103aa9e3.css.map": "/Recidiviz-site/static/css/main.103aa9e3.css.map",
+    "main.b133c805.js.map": "/Recidiviz-site/static/js/main.b133c805.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.9649eff3.js"
+    "static/css/main.103aa9e3.css",
+    "static/js/main.b133c805.js"
   ]
 }
