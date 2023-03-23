@@ -6,6 +6,8 @@ import Section_newspaper from "./Newspaper/Section_newspaper";
 import Section_partners from "./Partners/Section_partners";
 import Section_get from "./Get/Section_get";
 import Section_press from "./Press/Section_press";
+import Section_blog from "./Blog/Section_blog";
+
 
 
 
@@ -19,11 +21,10 @@ const Main = () => {
             <Section_partners/>
             <Section_get/>
             <Section_press/>
-
-
+            <Section_blog></Section_blog>
 
         </main>
-    )
+     )
 
 }
 export default Main;

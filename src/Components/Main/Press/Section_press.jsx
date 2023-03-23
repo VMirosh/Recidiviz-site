@@ -131,8 +131,6 @@ const Section_press = ()=>{
                       </p>
 
                   </div>
-
-
               </div>
 
           </div>
