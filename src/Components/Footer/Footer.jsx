@@ -1,14 +1,12 @@
 import './Footer.css'
-import logo from '../../assets/img/footer/logo-footer.svg'
-
-const Footer = () => {
+const Footer = (props) => {
     return(
         <footer className="footer">
             <div className="footer__content">
             <div>
-                <a href="#"><img src={logo}/></a>
+                <a href="#"><img src={props.attribute.logo}/></a>
             </div>
-            <p>Terms of Service Privacy  Responsible Disclosure Copyright © 2017-2023, Recidiviz. All Rights Reserved.</p>
+            <p> {props.attribute.description}</p>
         </div>
         </footer>
     )
