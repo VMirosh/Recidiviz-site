@@ -1,21 +1,28 @@
 import './Section_approach.css'
 import image01 from '../../../assets/img/main/people_success/section-success01.png'
 import image02 from '../../../assets/img/main/people_success/section-success02.png'
-const Section_approach = ()=>{
+
+const ApproachData = (props)=>{
+    return (
+        <div className='approach__data' >
+            <h3 className='approach__title'>
+                {props.article.title}
+            </h3>
+            <p className='approach__text'>
+                {props.article.description}
+            </p>
+            <div className='btn'>
+                {props.article.button}
+            </div>
+        </div>
+
+    )
+}
+const Section_approach = (props)=>{
     return(
         <section className='section__approach'>
           <div className='approach__content'>
-            <div className='approach__data' >
-              <h3 className='approach__title'>
-              A human–centered definition of success.
-              </h3>
-              <p className='approach__text'>
-              Our approach is shaped by the perspective and experience of people impacted by the justice system. Together, we are focused on restoring equity and supporting success in the community.
-              </p>
-              <div className='btn'>
-              Our approach
-              </div>
-              </div>
+              {props.approach.map(article => <ApproachData article = {article}/>)}
               
             <div className='approach__photos'>
                 <div><img src={image01} alt="image01" /></div>

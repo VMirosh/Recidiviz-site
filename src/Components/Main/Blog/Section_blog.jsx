@@ -1,43 +1,33 @@
 import './Section_blog.css'
 
+const TopBlog = (props) => {
+    return(
+        <div className="blog__title">
+            <h3>{props.item.title}</h3>
+            <div> <a href="#">{props.item.button}</a></div>
+        </div>
+    )
+}
+const RowTable =(props) => {
+    return(
+        <tr>
+            <td>{props.value.date}</td>
+            <td>{props.value.description}</td>
+            <td>{props.value.value}</td>
+        </tr>
+    )
+}
 
 
-const Section_blog = ()=>{
+const Section_blog = (props)=>{
     return(
         <section className='section__blog'>
           <div className='blog__content'>
-
-              <div className="blog__title">
-                  <h3>Blog Articles</h3>
-                  <div> <a href="#">See More</a></div>
-
-              </div>
-
+              {props.blog.top.map(item => <TopBlog item={item}/>)}
               <table className="blog__list">
-                  <tr>
-                      <td>1.11.23</td>
-                      <td>Following through on Bipartisan Criminal Justice Reform</td>
-                      <td> Product</td>
-                  </tr>
-                  <tr>
-                      <td>11.21.22</td>
-                      <td>Creating a More Proactive, Supportive Corrections System</td>
-                      <td>Product</td>
-                  </tr>
-                  <tr>
-                      <td>9.26.22</td>
-                      <td>Employee Spotlight: Joshua Essex, Chief Technology Officer</td>
-                      <td>Product</td>
-                  </tr>
-                  <tr>
-                      <td>4.8.22</td>
-                      <td>The consequences of Truth in Sentencing</td>
-                      <td>Product</td>
-                  </tr>
+                  {props.blog.blogList.map(value => <RowTable value={value}/>)}
+
               </table>
-
-
-
           </div>
         </section>
     ) }
