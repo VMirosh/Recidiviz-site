@@ -37,7 +37,7 @@
 }
 
 .header .nav .nav__list {
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -46,6 +46,16 @@
 
     font-weight: 400;
     font-size: 13px;
+}
+.header .nav .nav__login{
+    width: 10%;
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    column-gap: 4%;
 }
 
 .header .nav .nav__list a {
