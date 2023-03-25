@@ -21,7 +21,7 @@ import logoDepartment from "../assets/img/main/in_press/logo-department.svg";
 import logoRight from "../assets/img/main/in_press/logo-right.svg";
 import logoNews from "../assets/img/main/in_press/logo-the-news.svg";
 /*Footer*/
-import logoFooter from '../../assets/img/footer/logo-footer.svg'
+import logoFooter from "../assets/img/footer/logo-footer.svg"
 
 const state ={
     header: {
@@ -52,27 +52,31 @@ const state ={
                 {number: "3", description: "improve outcomes for justice-impacted individuals", },
             ]
         },
-        approach:{
+        approach:[{
             title:"A human–centered definition of success.",
             description: "Our approach is shaped by the perspective and experience of people impacted by the justice system. Together, we are focused on restoring equity and supporting success in the community.",
             button: "Our approach",
-        },
+        }],
         advice:[
             {
             title:"See the forest and the trees.",
             description:"The criminal justice system can't support safe, whole communities without feedback on what’s working and what’s not. We stitch together data from fragmented systems to provide decision-makers with the information they need to improve outcomes. With this data, we surface opportunities to safely chart a path to a smaller system, and to track the impact of policy and practice changes over time.",
-        }
-
+        },
         ],
         newspaper:[
-            {src: logoNewspapers1, name: "TED Talks",},
-            {src: logoNewspapers2, name: "The New York Times",},
-            {src: logoNewspapers3, name: "StateScoop",},
-            {src: logoNewspapers4, name: "Associated Press",},
-            {src: logoNewspapers5, name: "Time",},
-            {src: logoNewspapers6, name: "Freethink",},
+            {svg: logoNewspapers1, name: "TED Talks",},
+            {svg: logoNewspapers2, name: "The New York Times",},
+            {svg: logoNewspapers3, name: "StateScoop",},
+            {svg: logoNewspapers4, name: "Associated Press",},
+            {svg: logoNewspapers5, name: "Time",},
+            {svg: logoNewspapers6, name: "Freethink",},
                   ],
-        partners:[partners01,partners02,partners03,partners04,partners05,partners06],
+        partners:[{image:partners01,},
+            {image:partners02,},
+            {image:partners03,},
+            {image:partners04,},
+            {image:partners05,},
+            {image:partners06,},],
         get:{
             title:"Get the right information to the right person at the right time.",
             article:[
@@ -88,10 +92,10 @@ const state ={
 
         },
         press: {
-            top:{
+            top:[{
                 title:"Recidiviz in the Press",
                  button:"See All",
-            },
+            }],
             headlines:[
                 {
                     header:{logo:logoTed, name:"TED Talks",date:" 2.22.22",},
@@ -126,16 +130,15 @@ const state ={
             button:"Get in touch",
         },
         blog: {
-            top: {
+            top: [{
                 title: "Blog Articles",
                 button: "See More"
-            },
+            }],
             blogList: [
                 { date:"1.11.23",description:"Following through on Bipartisan Criminal Justice Reform",value:"Product",},
                 { date:"11.21.22",description:"Creating a More Proactive, Supportive Corrections System",value:"Product",},
                 { date:"9.26.22",description:"Employee Spotlight: Joshua Essex, Chief Technology Officer",value:"People",},
                 { date:"4.8.22",description:"The consequences of Truth in Sentencing",value:"Research",},
-
 
             ],
 
