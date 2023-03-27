@@ -28,7 +28,12 @@ const state ={
         blockLink: "Watch our new TED Talk →",
         top:{
             logo: logoHeader,
-            links: ["States","Tools","People","Learn","Donate"],
+            links: [
+                {name:"States", address:"/states"},
+                {name:"Tools", address:"/tools"},
+                {name:"People", address:"/people"},
+                {name:"Learn", address:"/learn"},
+                {name:"Donate", address:"/donate"}],
             login: ["Log In"],
         },
         content:{
@@ -44,6 +49,13 @@ const state ={
     },
 
     main:{
+        navigation: [
+            {name:"About", address:"/"},
+            {name:"People", address:"/people"},
+            {name:"Press", address:"/press"},
+            {name:"Blog", address:"/blog"},
+            {name:"Work", address:"/work"},
+        ],
         about:{
             title: "We are a non-profit that partners with state criminal justice agencies to advance their use of data and reduce incarceration.",
             steps:[
