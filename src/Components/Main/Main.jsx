@@ -24,8 +24,8 @@ const Main = (props) => {
                 <Route path = "/people" element={<Section_approach  approach={props.attribute.approach}/>}/>
                 <Route path = "/work" element={ <Section_work work={props.attribute.work}/>}/>
                 <Route path = "/blog" element={ <Section_blog blog={props.attribute.blog}/>}/>
-
             </Routes>
+
             {/*<Section_about about={props.attribute.about}/>*/}
             {/*<Section_approach  approach={props.attribute.approach}/>*/}
             <Section_newspapers  newspaper={props.attribute.newspaper}/>

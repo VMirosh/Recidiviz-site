@@ -23,3 +23,6 @@
     font-size: 16px;
     line-height: 156%;
 }
+.section__navigation .navigation__content .nav__list a{
+    color: #003331;
+}
