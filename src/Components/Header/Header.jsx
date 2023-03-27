@@ -1,9 +1,12 @@
 import './Header.css'
-// import logo from '../../assets/img/header/header-logo.svg'
+import BlockLink from "./BlockLink/BlockLink";
+import {NavLink} from "react-router-dom";
+
 
 const Headerlink = (props) => {
     return(
-        <li><a href="#">{props.link}</a></li>
+        <NavLink to={props.link.address}>{props.link.name}</NavLink>
+
     )
 }
 const Headerlogin = (props) =>{
@@ -11,11 +14,7 @@ const Headerlogin = (props) =>{
         <li><a href="#">{props.data}</a></li>
     )
 }
-const BlockLink =(props) =>{
-    return(
-        <a href="#">{props.data}</a>
-    )
-};
+
 
 const BottomItem = (props) =>{
     return(
@@ -41,24 +40,24 @@ const Header = (props) => {
                     <a href="#"><img src={props.top.logo} alt="logo" className="logo"/></a>
                 </div>
                 <ul className="nav__list">
-                    {props.top.links.map(link => <Headerlink link = {link}/>)}
+                    {props.top.links.map(link => <Headerlink  link = {link}/>)}
                 </ul>
                 <ul className="nav__login">
-                    {props.top.login.map(data => <Headerlogin data= {data}/>)}
+                    {props.top.login.map(data => <Headerlogin   data={data}/>)}
                 </ul>
             </nav>
             </div>
 
-                <div className="header__content">
+                <div className="header__content ">
                     <h1 className='content-title'>
                         {props.content.title}
                     </h1>
                     <p className='content-aside'>
                         {props.content.description}
                     </p>
-                    <div className="btn">
+                    <button className="btn">
                         {props.content.button}
-                    </div>
+                    </button>
                 </div>
 
                 <div className="header__bottom">
@@ -66,7 +65,7 @@ const Header = (props) => {
                         {props.bottom.title}
                     </h4>
                     <ul className="header__bottom-trusted">
-                        {props.bottom.cities.map(data => <BottomItem data = {data}/>)}
+                        {props.bottom.cities.map(data => <BottomItem  data = {data}/>)}
                     </ul>
 
                 </div>

@@ -1,0 +1,25 @@
+.section__navigation{
+    background-color: #F7F8F8;
+    width: 100%;
+
+}
+.section__navigation .navigation__content{
+    padding: 20px 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.section__navigation .navigation__content .nav__list {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    column-gap: 4%;
+    color: #003331;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+}

@@ -71,6 +71,7 @@
 /* content */
 .header .header__content{
 
+
     width: 43%;
     margin-top: 132px;
     display: flex;
@@ -92,17 +93,23 @@
     font-size: 18px;
     line-height: 156%;
 }
+/*BUTTON*/
 .header .header__content .btn{
+    cursor: pointer;
     font-weight: 400;
     font-size: 13px;
     padding: 17px 33px;
     border-radius: 85px;
     border: 1px solid #FFFFFF;
-
 }
 .header .header__content .btn:hover{
-
-    transition: color 0.1s ease-in;
+    background-color: #003331;
+    transition: background-color 0.2s ease-in;
+}
+.header .header__content .btn:active {
+    position: relative;
+    top: 1px;
+    left: 1px;
 }
 
 /* bottom */
