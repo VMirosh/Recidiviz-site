@@ -4,6 +4,7 @@ import './reset.css';
 import Main from "./Main/Main";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
+import {Route, Routes} from "react-router-dom";
 
 
 function App(props) {
@@ -16,7 +17,7 @@ function App(props) {
           content={props.state.header.content}
           bottom={props.state.header.bottom}
       />
-      <Main attribute = {props.state.main}/>
+        <Main attribute = {props.state.main}/>
       <Footer attribute = {props.state.footer}/>
 
     </div>
