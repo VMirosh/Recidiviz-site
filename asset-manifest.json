@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Recidiviz-site/static/css/main.aad6b73d.css",
-    "main.js": "/Recidiviz-site/static/js/main.68ca574b.js",
+    "main.css": "/Recidiviz-site/static/css/main.114c2fcf.css",
+    "main.js": "/Recidiviz-site/static/js/main.a6ab0e41.js",
     "static/media/logo-get.svg": "/Recidiviz-site/static/media/logo-get.a39213bc5353462e45484fe7af6fbe13.svg",
     "static/media/header-background.jpg": "/Recidiviz-site/static/media/header-background.b6ab26e51945a8a4ecf9.jpg",
     "static/media/logo-department.svg": "/Recidiviz-site/static/media/logo-department.1bee22efb996f1eeca8414413ad1b58e.svg",
@@ -30,11 +30,11 @@
     "static/media/logo-footer.svg": "/Recidiviz-site/static/media/logo-footer.3bf20a82f943c2d0b638b4a990fa1da5.svg",
     "static/media/partners06.svg": "/Recidiviz-site/static/media/partners06.906c8af7a094f046861993982bb7defc.svg",
     "index.html": "/Recidiviz-site/index.html",
-    "main.aad6b73d.css.map": "/Recidiviz-site/static/css/main.aad6b73d.css.map",
-    "main.68ca574b.js.map": "/Recidiviz-site/static/js/main.68ca574b.js.map"
+    "main.114c2fcf.css.map": "/Recidiviz-site/static/css/main.114c2fcf.css.map",
+    "main.a6ab0e41.js.map": "/Recidiviz-site/static/js/main.a6ab0e41.js.map"
   },
   "entrypoints": [
-    "static/css/main.aad6b73d.css",
-    "static/js/main.68ca574b.js"
+    "static/css/main.114c2fcf.css",
+    "static/js/main.a6ab0e41.js"
   ]
 }
