@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Recidiviz-site/static/css/main.114c2fcf.css",
-    "main.js": "/Recidiviz-site/static/js/main.3ce89d36.js",
+    "main.js": "/Recidiviz-site/static/js/main.7b491789.js",
     "static/media/logo-get.svg": "/Recidiviz-site/static/media/logo-get.a39213bc5353462e45484fe7af6fbe13.svg",
     "static/media/header-background.jpg": "/Recidiviz-site/static/media/header-background.b6ab26e51945a8a4ecf9.jpg",
     "static/media/logo-department.svg": "/Recidiviz-site/static/media/logo-department.1bee22efb996f1eeca8414413ad1b58e.svg",
@@ -31,10 +31,10 @@
     "static/media/partners06.svg": "/Recidiviz-site/static/media/partners06.906c8af7a094f046861993982bb7defc.svg",
     "index.html": "/Recidiviz-site/index.html",
     "main.114c2fcf.css.map": "/Recidiviz-site/static/css/main.114c2fcf.css.map",
-    "main.3ce89d36.js.map": "/Recidiviz-site/static/js/main.3ce89d36.js.map"
+    "main.7b491789.js.map": "/Recidiviz-site/static/js/main.7b491789.js.map"
   },
   "entrypoints": [
     "static/css/main.114c2fcf.css",
-    "static/js/main.3ce89d36.js"
+    "static/js/main.7b491789.js"
   ]
 }
