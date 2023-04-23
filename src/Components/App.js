@@ -8,9 +8,9 @@ import Footer from "./Footer/Footer";
 
 function App(props) {
   return (
-    <div className="wrapper">
+    <div className"wrapper">
       <Header
-          background = {props.state.header.blockLink}
+          background  {props.state.header.blockLink}
           blockLink ={props.state.header.blockLink}
           top={props.state.header.top}
           content={props.state.header.content}
